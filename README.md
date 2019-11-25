@@ -6,5 +6,3 @@ Inspired by: 1) One of my favorite authors, Jonathan Safran Foer, and his latest
 
 This application let you check in at various locations and outputs different location and associated air quality information on
 a map rendered by Leaflet.js 
-
-Kudos to Joey Lee creator of the "Weather Here" project. 
