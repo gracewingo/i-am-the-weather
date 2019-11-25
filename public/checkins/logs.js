@@ -12,7 +12,7 @@ async function getData(){
 
     for (item of data){
         const marker = L.marker([item.lat, item.lon]).addTo(mymap);
-        let txt = `I'm sitting out here at ${item.lat}&deg
+        let txt = `Happening now: I'm currently sitting at ${item.lat}&deg
         ${item.lon}&deg on this ${item.weather.summary} day and the temperature is
         a wonderful ${item.weather.temperature} degrees F.`
        
