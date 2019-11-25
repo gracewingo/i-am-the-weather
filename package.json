@@ -1,0 +1,26 @@
+{
+  "name": "check-in-app",
+  "version": "1.0.0",
+  "description": "an application to check in with your location data and keep a record of it over time. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "json",
+    "location"
+  ],
+  "author": "grace wingo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
+}
